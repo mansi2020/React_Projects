@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+progress {
+  height: 50px;
+  width: 500px;
+  position: relative;
+  transition: all 0.3s;
+}
+progress > p {
+  z-index: 100;
+}
+
+.scrollBarText {
+  position: absolute;
+  left: 50%;
+  /* top:10%; */
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+}
